@@ -1,0 +1,26 @@
+#include<stdio.h>
+long ff(int n)
+{
+
+    int ab;
+    if(n<5)
+    {
+        ab=ff(n+1)+n;
+    }
+    else
+    {
+        return ab;
+    }
+
+
+}
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+
+    int long y;
+    y=ff(n); 
+    printf("%d",y);
+}
